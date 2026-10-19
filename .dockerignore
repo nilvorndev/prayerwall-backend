@@ -1,0 +1,13 @@
+# Build context hygiene for the Go API image (context: repo root).
+# Keep in sync with .gitignore.
+
+.git
+.gitignore
+.dockerignore
+
+bin/
+
+.env
+.env.*
+
+deploy/compose.yaml
